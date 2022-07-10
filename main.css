@@ -19,11 +19,72 @@ body {
     height: 125px;
 }
 
+a, a:visited {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
 .links {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 32px;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero img {
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 25px;
+    margin: 100px 0;
+}
+
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    padding: 0 300px;
+    height: 500px;
+}
+
+.hero-main {
+    font-family: 'Roboto' , sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.hero-secondary {
+    font-family: 'Roboto' , sans-serif;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-button {
+    background-color: #3882F6;
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    height: 50px;
+    width: 200px;
+}
+
+.hero-button:hover {
+    background-color: #275aac;
+    color: white;
+    transition: background-color 0.1s;
+  }
+
+.hero .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    width: 600px;
 }
