@@ -40,6 +40,7 @@ a, a:visited {
     overflow: hidden;
     border-radius: 25px;
     margin: 100px 0;
+    flex-shrink: 0;
 }
 
 .hero {
@@ -47,7 +48,8 @@ a, a:visited {
     background-color: #1F2937;
     justify-content: space-between;
     padding: 0 300px;
-    height: 500px;
+    height: 700px;
+    gap: 64px;
 }
 
 .hero-main {
@@ -87,4 +89,53 @@ a, a:visited {
     justify-content: center;
     gap: 16px;
     width: 600px;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    flex-direction: column;
+}
+
+.information .heading {
+    font-family: 'Roboto' , sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    height: 100px;
+}
+
+.containers {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.container {
+    height: 260px;
+    width: 210px;
+}
+
+.container .border {
+    border: #3882F6 solid 5px;
+    border-radius: 25px;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container p {
+    font-family: 'Roboto' , sans-serif;
+    text-align: center;
+}
+
+.container .border p {
+    font-size: 20px;
+    font-weight: 800;
+    color: #1F2937;
 }
