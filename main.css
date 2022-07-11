@@ -115,7 +115,7 @@ a, a:visited {
 }
 
 .container {
-    height: 260px;
+    height: 400px;
     width: 210px;
 }
 
@@ -136,6 +136,39 @@ a, a:visited {
 
 .container .border p {
     font-size: 20px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 252px;
+    width: 600px;
+}
+
+.quote .content .p1 {
+    font-family: 'Roboto' , sans-serif;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quote .content .p2 {
+    align-self: flex-end;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 24px;
     font-weight: 800;
     color: #1F2937;
 }
